@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, "Segoe UI", sans-serif;
+
+  /* Neutral surface scale — cool, slightly blue-tinted grays, not pure gray/black */
+  --color-canvas: #F5F6F8;
+  --color-surface: #FFFFFF;
+  --color-border: #E1E4EA;
+  --color-border-strong: #C7CCD6;
+
+  /* Ink scale */
+  --color-ink: #111420;
+  --color-ink-soft: #565D6D;
+  --color-ink-faint: #8A90A0;
+
+  /* Sidebar — near-black navy, distinct from pure black */
+  --color-nav-bg: #0E1220;
+  --color-nav-ink: #AEB4C4;
+  --color-nav-ink-active: #FFFFFF;
+  --color-nav-border: #1E2333;
+
+  /* Brand / primary accent — confident cobalt, used sparingly */
+  --color-primary: #2851E3;
+  --color-primary-soft: #EAEEFD;
+
+  /* Semantic */
+  --color-positive: #0E8F71;
+  --color-positive-soft: #E6F5F0;
+  --color-negative: #C4432E;
+  --color-negative-soft: #FBEAE6;
+  --color-warning: #B67B18;
+  --color-warning-soft: #FBF1E1;
+
+  /* Chart palette — used in a fixed order across all charts */
+  --color-chart-1: #2851E3;
+  --color-chart-2: #0E8F71;
+  --color-chart-3: #B67B18;
+  --color-chart-4: #7C5CD9;
+  --color-chart-5: #C4432E;
+  --color-chart-6: #1B94A8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "tnum" 1, "cv11" 1;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

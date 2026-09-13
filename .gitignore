@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# Env
+.env
+
+# Data (raw generated data is large; keep sample/schema only)
+data/raw/*.csv
+data/reports/*.csv
+data/reports/*.log
+!data/raw/.gitkeep
+!data/reports/.gitkeep
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

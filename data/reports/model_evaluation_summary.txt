@@ -1,0 +1,9 @@
+CHURN MODEL COMPARISON
+              model  accuracy  precision   recall  f1_score  roc_auc
+Logistic Regression  0.714091   0.688602 0.616842  0.650750 0.768400
+      Random Forest  0.710909   0.704961 0.568421  0.629371 0.768280
+  Gradient Boosting  0.714091   0.697904 0.595789  0.642817 0.773249
+
+FORECAST BACKTEST METRICS (30-day holdout)
+    MAE    RMSE  MAPE_pct
+8427.39 9824.22     10.94
