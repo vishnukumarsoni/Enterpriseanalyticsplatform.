@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Enterprise Sales, Customer &amp; Revenue Analytics Platform
 
 *Enterprise Analytics Hub*
@@ -184,3 +185,7 @@ insight generation).
 Built as a portfolio-grade demonstration of an end-to-end enterprise
 analytics platform: data engineering, SQL analytics, ML, backend API design,
 and frontend dashboard development.
+=======
+# Enterpriseanalyticsplatform.
+Developed an enterprise analytics platform using Python, SQL, Excel, and Power BI to transform business data into actionable insights. Built interactive dashboards for sales, revenue, customers, and KPIs, enabling data-driven decisions, performance tracking, and improved reporting efficiency.
+>>>>>>> 89a49d6f546b0ab276aaf12b4cf2d0140aa391a4
